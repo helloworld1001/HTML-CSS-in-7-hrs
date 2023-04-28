@@ -1,3 +1,45 @@
-span {
-    font-style: italic;
+/* Content */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(184, 184, 184);
 }
+
+.list-container {
+  display: inline-block;
+  border-style: solid;
+  border-width: 0.5px;
+  padding-right: 20px;
+}
+
+.list-container > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-container {
+  float: right;
+  border-style: solid;
+  border-width: 0.5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.img-container > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-html {
+  max-width: 70px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navbar */
